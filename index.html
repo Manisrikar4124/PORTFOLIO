@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/fav-icon.jpg" />
+    <title>MANI's -> Portfolio</title>
+
+    <!-- Font Awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/a9cdbedf57.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Styling CSS -->
+    <link rel="stylesheet" id="themeStylesheet" href="./assets/css/style.css" />
+    <style>
+      .certification-logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <a href="./index.html"><span class="logo">WEB DEVELOPER</span></a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section" id="home">
+        <div>
+          <div>
+            <h4 title="Hello, How are you?">Hello !!</h4>
+            <h2 class="hero-section__title">
+              I'm <span>Mani Srikar Baswaraju</span>
+            </h2>
+            <p class="hero-section__desc">
+              "I am a 3rd-year BTech student in Computer Science Engineering at
+              Kakatiya Institute of Technology & Science, Warangal. With a
+              strong passion for networks and cybersecurity, I also possess
+              skills in frontend web technologies, including HTML, CSS, and
+              JavaScript, which complement my technical expertise."
+            </p>
+          </div>
+
+          <ul class="social-icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/mani4124/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/mani._.4124/?__pwa=1"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-img">
+          <img src="assets/img/mani1.jpg" alt="mani-portfolio" width="350" />
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="about-img">
+          <img src="assets/img/mani22.jpg" alt="mani-portfolio" />
+        </div>
+
+        <div class="about-content">
+          <h4>About Me</h4>
+          <h2>
+            I am <br />
+            <span>Web Developer</span>
+          </h2>
+          <p>
+            I am currently pursuing a Bachelor of Technology (B.Tech) in
+            Computer Science Engineering with a specialization in Networks at
+            KITS College. As a passionate tech enthusiast, I am deeply
+            interested in exploring cutting-edge technologies and expanding my
+            knowledge in the fields of networking, cybersecurity, and ethical
+            hacking. With a strong foundation in computer science and a keen
+            focus on my specialization, I aim to develop innovative solutions
+            to real-world challenges. Expected to graduate in 2026, I am eager
+            to contribute to the tech industry and collaborate on projects that
+            drive meaningful impact.
+          </p>
+
+          <button class="btn btn-primary">
+            <a href="https://github.com/Manisrikar4124" target="_blank">
+              Know More <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </a>
+          </button>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects-section" id="projects">
+        <h2>My <span>Certifications</span></h2>
+        <div class="projects-cards">
+          <!-- NPTEL -->
+          <div class="projects-card-box">
+            <div class="projects-card-box__icons">
+              <img
+                src="https://storage.googleapis.com/swayam2_central/assets/img/swayam_images/NC_logo/NPTEL_logo_128.png"
+                alt="NPTEL Logo"
+                class="certification-logo"
+              />
+            </div>
+            <div class="projects-card-box__desc">
+              <h4>ETHICAL HACKING</h4> - Nov, 2024
+              <p>Credential ID NPTEL24CS94S462000288</p>-From NPTEL
+            </div>
+          </div>
+
+          <!-- HackerRank -->
+          <div class="projects-card-box">
+            <div class="projects-card-box__icons">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/900px-HackerRank_Icon-1000px.png"
+                alt="HackerRank Logo"
+                class="certification-logo"
+              />
+            </div>
+            <div class="projects-card-box__desc">
+              <h4>JAVA - Beginner</h4> - Aug, 2024
+              <p>Credential ID 6F7267C88E1E9</p>-From HACKER RANK
+            </div>
+          </div>
+
+          <!-- Cisco -->
+          <div class="projects-card-box">
+            <div class="projects-card-box__icons">
+              <img
+                src="https://institutpoblenou.cat/wp-content/uploads/2020/03/logo-Proyecto-Cisco.jpg"
+                alt="Cisco Logo"
+                class="certification-logo"
+              />
+            </div>
+            <div class="projects-card-box__desc">
+              <h4>JAVA SCRIPT ESSENTIAL</h4> - May, 2024
+              <p></p>-From CISCO
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <h2>REACH <span>ME BY</span></h2>
+        <form action="">
+          <div>
+            <input type="text" name="name" placeholder="FullName" required />
+          </div>
+          <div>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div>
+            <textarea
+              name="message"
+              placeholder="Type Message"
+              rows="5"
+            ></textarea>
+          </div>
+          <div>
+            <button class="btn btn-primary">SEND MESSAGE</button>
+          </div>
+        </form>
+        <div class="contact__github">
+          <button class="btn">
+            <a href="https://github.com/Vinay1489" target="_blank">
+              <i class="fa-brands fa-github"></i> Github
+            </a>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Copyright &copy; 2025 - 
+        <a href="https://github.com/Manisrikar4124" target="_blank">MANI SRIKAR BASWARAJU</a>
+        - All Rights Reserved.
+      </p>
+    </footer>
+
+    <!-- JS -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
